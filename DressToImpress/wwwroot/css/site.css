@@ -1,3 +1,5 @@
+
+/*CSS for entire site*/
 html {
   font-size: 14px;
 }
@@ -6,6 +8,12 @@ html {
   html {
     font-size: 16px;
   }
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Times New Roman", Times, serif !important;
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
@@ -19,4 +27,96 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+/*Footer error fix for Pages*/
+.footer {
+    position: static !important;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+/* CSS for LookBook Page*/
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+
+.column2 {
+    float: left;
+    width: 25%;
+    padding: 15px;
+    text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/*CSS for Outfit Results*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.columnForOR {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+
+.column2ForOR {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .columnForOR {
+        width: 100%;
+    }
+}
+
+/*CSS for Buttons*/
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: black !important;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: black !important;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #555;
 }

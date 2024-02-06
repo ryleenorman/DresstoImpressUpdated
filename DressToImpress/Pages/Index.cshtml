@@ -4,7 +4,137 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        .hero-image {
+            background-image: url("Audrey.jpg");
+            height: 50vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .hero-text {
+            text-align: right;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            color: black;
+            padding: 20px;
+            max-width: 50%;
+        }
+
+            .hero-text h1 {
+                font-size: 50px;
+            }
+
+            .hero-text p {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            .hero-text button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 10px 25px;
+                color: white;
+                background-color: black;
+                text-align: center;
+                cursor: pointer;
+                font-size: 18px;
+            }
+
+                .hero-text button:hover {
+                    background-color: #555;
+                }
+
+        hr.solid {
+            border-top: 3px solid black;
+        }
+
+        .hero-image2 {
+            background-image: url("Leopard.jpg");
+            height: 50vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .hero-text2 {
+            text-align: left;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            color: black;
+            padding: 20px;
+            max-width: 50%;
+        }
+
+            .hero-text2 h1 {
+                font-size: 50px;
+            }
+
+            .hero-text2 p {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            .hero-text2 button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 10px 25px;
+                color: white;
+                background-color: black;
+                text-align: center;
+                cursor: pointer;
+                font-size: 18px;
+            }
+
+                .hero-text2 button:hover {
+                    background-color: #555;
+                }
+    </style>
+</head>
+<body>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Find Your Perfect Outfit</h1>
+            <p>Explore the Possibilities</p>
+            <button onclick="window.location.href='OutfitResults'">Get Started</button>
+        </div>
+    </div>
+    
+    <hr class="solid">
+
+    <div class="hero-image2">
+        <div class="hero-text2">
+            <h1>Fashion For Every Occasion</h1>
+            <p>Browse By Season </p>
+            <button onclick="window.location.href='LookBook'">View</button>
+        </div>
+    </div>
+    <footer class="footer">
+
+    </footer>
+</body>
+</html>
+
+
+
