@@ -1,5 +1,8 @@
 # Dress To Impress Outfit Generating Website
 
+![Image Alt text](/DressToImpress/DresstoImpressLogo.jpg "Dress to Impress")
+
+
 ## Introduction
 
 The goal of this project is to create a webpage that generates an outfit for the user based on current weather data. During my creative process, I noticed my roommate complaining that the weather had ruined his shoes, which sparked my idea for a website to prevent just that. Not only did I want this website to save everyone’s nice shoes, I wanted to tie in an aspect to save myself time in the mornings, which is selecting an outfit. I spend a lot of my time on Pinterest looking for inspiration, so not only would this website be efficient for preparing for the weather, but also give a random generation of an outfit so that each day can be something new, without having to brainstorm or search for yourself. Currently, the website will give the user a randomly generated outfit and access to a weather source, but can not combine the two just yet. The concept is there along with the website design and color scheme, but could use a few functional details.
