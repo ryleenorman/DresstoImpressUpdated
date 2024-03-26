@@ -1,4 +1,5 @@
-﻿using DresstoImpressAPI.Entities;
+﻿//By Emily Mago
+using DresstoImpressAPI.Entities;
 using DresstoImpressAPI.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,17 +7,17 @@ namespace DresstoImpressAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ClothingController : Controller
+    public class OutfitController : Controller
     {
-        private readonly IClothing_Emily_Mago emily_mago_clothing;
-            public ClothingController(IClothing_Emily_Mago Emily_Mago_Clothing) 
+        private readonly IOutfitService outfit_EM;
+            public OutfitController(IOutfitService Outfit_EM) 
         {
-            this.emily_mago_clothing = Emily_Mago_Clothing;
+            this.outfit_EM = Outfit_EM;
         }
         [HttpGet("{outfitid}")]
        public async  Task<List<Outfit>> GetOutfitDetails(int outfitid)
         {
-            var outfitDetails = await emily_mago_clothing.GetOutfitDetails(outfitid);
+            var outfitDetails = await outfit_EM.GetOutfitDetails(outfitid);
            /* if (outfitid == null)
             {
                 return NotFound()

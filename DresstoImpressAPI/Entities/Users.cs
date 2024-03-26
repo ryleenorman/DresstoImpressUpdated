@@ -5,9 +5,10 @@ namespace DresstoImpressAPI.Entities
 {
     public class Users
     {
+        [Key]
             public int UserID { get; set; }
             public DateTime UserDoB { get; set; }
             public string UserOccupation { get; set; } 
         }
     }
-}
+

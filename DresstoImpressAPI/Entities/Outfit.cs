@@ -5,6 +5,7 @@ namespace DresstoImpressAPI.Entities
 {
     public class Outfit
     {
+        [Key]
         public int OutfitID { get; set; }
         public int WeatherID { get; set; }
         public int ClothingID { get; set; }
