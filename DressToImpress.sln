@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DresstoImpress", "DresstoImpress\DresstoImpress.csproj", "{AAD89338-919B-4470-A960-4411D5B72E11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DresstoImpressAPI", "DresstoImpressAPI\DresstoImpressAPI.csproj", "{26037CC6-BA91-4F7D-A5C4-84138524B062}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DresstoImpressAPI2", "DresstoImpressAPI2\DresstoImpressAPI2.csproj", "{582CCD7A-DCD3-456E-8755-6822C87BC2B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{AAD89338-919B-4470-A960-4411D5B72E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAD89338-919B-4470-A960-4411D5B72E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAD89338-919B-4470-A960-4411D5B72E11}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26037CC6-BA91-4F7D-A5C4-84138524B062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26037CC6-BA91-4F7D-A5C4-84138524B062}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26037CC6-BA91-4F7D-A5C4-84138524B062}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26037CC6-BA91-4F7D-A5C4-84138524B062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582CCD7A-DCD3-456E-8755-6822C87BC2B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582CCD7A-DCD3-456E-8755-6822C87BC2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582CCD7A-DCD3-456E-8755-6822C87BC2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582CCD7A-DCD3-456E-8755-6822C87BC2B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

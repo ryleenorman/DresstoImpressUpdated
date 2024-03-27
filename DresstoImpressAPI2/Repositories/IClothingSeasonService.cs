@@ -1,8 +1,6 @@
-﻿//Rylee Norman
+﻿using DresstoImpressAPI2.Entities;
 
-using DresstoImpressAPI.Entities;
-
-namespace DresstoImpressAPI.Repositories
+namespace DresstoImpressAPI2.Repositories
 {
     public interface IClothingSeasonService
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DresstoImpressAPI.Entities
+namespace DresstoImpressAPI2.Entities
 {
     public class Outfit
     {

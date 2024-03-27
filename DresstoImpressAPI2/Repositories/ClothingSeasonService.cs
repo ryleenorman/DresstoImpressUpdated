@@ -1,13 +1,10 @@
-﻿using DresstoImpressAPI.Data;
-using DresstoImpressAPI.Entities;
-using Microsoft.AspNetCore.Mvc;
+﻿using DresstoImpressAPI2.Data;
+using DresstoImpressAPI2.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
-namespace DresstoImpressAPI.Repositories
+namespace DresstoImpressAPI2.Repositories
 {
-    [Route("api/[controller]")]
-    [ApiController]
     public class ClothingSeasonService : IClothingSeasonService
     {
         private readonly DbContextClass _dbContextClass;
@@ -21,6 +18,5 @@ namespace DresstoImpressAPI.Repositories
             var getClothingbySeason = await Task.Run(() => _dbContextClass.ClothingBySeason.FromSqlRaw("exec GetClothingbySeason @ClothingID", param).ToListAsync());
             return getClothingbySeason;
         }
-
     }
 }

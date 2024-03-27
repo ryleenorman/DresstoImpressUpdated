@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace DresstoImpressAPI.Controllers
+namespace DresstoImpressAPI2.Controllers
 {
     [ApiController]
     [Route("[controller]")]

@@ -1,7 +1,7 @@
-﻿using DresstoImpressAPI.Entities;
+﻿using DresstoImpressAPI2.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace DresstoImpressAPI.Data
+namespace DresstoImpressAPI2.Data
 {
     public class DbContextClass : DbContext
     {
@@ -9,7 +9,7 @@ namespace DresstoImpressAPI.Data
         {
 
         }
-        public DbSet<Outfit> Outfit { get; set; }   
+        public DbSet<Outfit> Outfit { get; set; }
         public DbSet<ClothingBySeason> ClothingBySeason { get; set; }
     }
 }

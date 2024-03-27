@@ -1,9 +1,9 @@
-﻿using DresstoImpressAPI.Data;
-using DresstoImpressAPI.Entities;
+﻿using DresstoImpressAPI2.Data;
+using DresstoImpressAPI2.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
-namespace DresstoImpressAPI.Repositories
+namespace DresstoImpressAPI2.Repositories
 {
     public class OutfitService : IOutfitService
     {
@@ -18,6 +18,5 @@ namespace DresstoImpressAPI.Repositories
             var getOutfitDetails = await Task.Run(() => _dbContextClass.Outfit.FromSqlRaw("exec GetOutfitDetails @OutfitID", param).ToListAsync());
             return getOutfitDetails;
         }
-
     }
 }

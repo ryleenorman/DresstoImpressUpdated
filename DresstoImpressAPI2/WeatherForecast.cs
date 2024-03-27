@@ -1,4 +1,4 @@
-namespace DresstoImpressAPI
+namespace DresstoImpressAPI2
 {
     public class WeatherForecast
     {

@@ -1,0 +1,6 @@
+@DresstoImpressAPI2_HostAddress = http://localhost:5029
+
+GET {{DresstoImpressAPI2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
