@@ -1,5 +1,3 @@
-//Rylee Norman
-
 using DresstoImpressAPI.Data;
 using DresstoImpressAPI.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -7,8 +5,11 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddScoped<IOutfitService, OutfitService>();
-builder.Services.AddDbContext<DbContextClass>(options =>
+builder.Services.AddScoped<IPriceService, PriceService> ();
+builder.Services.AddDbContext<DbContextClass>(options => 
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
@@ -17,6 +18,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+
 
 var app = builder.Build();
 

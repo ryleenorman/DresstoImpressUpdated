@@ -1,6 +1,4 @@
-﻿//Rylee Norman
-
-using DresstoImpressAPI.Data;
+﻿using DresstoImpressAPI.Data;
 using DresstoImpressAPI.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;

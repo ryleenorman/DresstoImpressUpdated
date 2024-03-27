@@ -1,6 +1,4 @@
-﻿//Rylee Norman
-
-using DresstoImpressAPI.Entities;
+﻿using DresstoImpressAPI.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace DresstoImpressAPI.Data
@@ -11,7 +9,6 @@ namespace DresstoImpressAPI.Data
         {
 
         }
-        public DbSet<Outfit> Outfit { get; set; }
-        public DbSet<ClothingBySeason> Clothing { get; set; }
+        public DbSet<Outfit> Outfit { get; set; }   
     }
 }

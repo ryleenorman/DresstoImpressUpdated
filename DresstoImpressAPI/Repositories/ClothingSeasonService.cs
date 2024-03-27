@@ -1,12 +1,13 @@
-﻿//Rylee Norman
-
-using DresstoImpressAPI.Data;
+﻿using DresstoImpressAPI.Data;
 using DresstoImpressAPI.Entities;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
 namespace DresstoImpressAPI.Repositories
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class ClothingSeasonService : IClothingSeasonService
     {
         private readonly DbContextClass _dbContextClass;

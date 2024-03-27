@@ -1,6 +1,4 @@
-﻿//Rylee Norman
-
-using DresstoImpressAPI.Entities;
+﻿using DresstoImpressAPI.Entities;
 using DresstoImpressAPI.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
