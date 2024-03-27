@@ -10,5 +10,6 @@ namespace DresstoImpressAPI.Data
 
         }
         public DbSet<Outfit> Outfit { get; set; }   
+        public DbSet<ClothingBySeason> ClothingBySeason { get; set; }
     }
 }
