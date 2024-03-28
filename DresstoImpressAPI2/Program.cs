@@ -1,3 +1,4 @@
+using DresstoImpressAPI.Repositories;
 using DresstoImpressAPI2.Data;
 using DresstoImpressAPI2.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IOutfitService, OutfitService>();
 builder.Services.AddScoped<IClothingSeasonService, ClothingSeasonService>();
 builder.Services.AddScoped<IWeatherTypeService, WeatherTypeService>();
+Builder.Services.AddScoped<ITemperatureService, TemperatureService>();
+Builder.Services.AddScoped<IUserOccupationService, UserOccupationService>();
 builder.Services.AddDbContext<DbContextClass>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
