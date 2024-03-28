@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddScoped<IOutfitService, OutfitService>();
 builder.Services.AddScoped<IClothingSeasonService, ClothingSeasonService>();
+builder.Services.AddScoped<IWeatherTypeService, WeatherTypeService>();
 builder.Services.AddDbContext<DbContextClass>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
