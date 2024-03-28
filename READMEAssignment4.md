@@ -8,7 +8,7 @@ The first page you land on when launching the website is the Index or Home Page.
 
 ### Outfit Results
 
-This page is linked to the first hero image button on the Home Page. This is where the user will go to get their generated outfit for the day. The page is made up of a two column layout from W3Schools. Currently, there is an anchored button that will take the user to the Weather Channel’s website to check their weather for that area. The next section there is a button that will randomly generate an outfit every time the user clicks the button. The function used is JavaScript that puts uploaded images from the developer into an array that chooses one at random each time. This was a personal idea that ChatGPT was able to clean up and help make my code functional.
+This page is linked to the first hero image button on the Home Page. This is where the user will go to get their generated outfit for the day. The page is made up of a two column layout from W3Schools. Currently, there is an anchored button that will take the user to the Weather Channel’s website to check their weather for that area. The next section there is a button that will randomly generate an outfit every time the user clicks the button. The function used is JavaScript that puts uploaded images from the developer into an array that chooses one at random each time. This was a personal idea that ChatGPT was able to clean up and help make my code functional. This is also where we plan to implement the NOAA weather APIs to display weather or retrieve data to give our customers better outfit predictions.
 
 
 ### Look Book
@@ -194,7 +194,7 @@ Returns the ClothingID and Price
 
 #### What it Does
 
-This API takes an input of WeatherID and returns the Weather type (ex. Rainy, Snowy, etc.). This is another important service that will help us give the best recommendations to our customers for the day. This will allow us to include things like a raincoat, boots, or gloves that you may forget in the mornings while getting ready for your day.
+This API takes an input of WeatherID and returns the Weather type (ex. Rainy, Snowy, etc.). This is another important service that will help us give the best recommendations to our customers for the day. This will allow us to include things like a raincoat, boots, or gloves that you may forget in the mornings while getting ready for your day. This API is from a new Stored Procedure added after the last assignment. The file for the new Stored Procedure is also in the repository.
 
 
 #### Inputs
