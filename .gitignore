@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/DresstoImpress/Pages/LookBook.cshtml
+/DresstoImpress/Pages/LookBook.cshtml
